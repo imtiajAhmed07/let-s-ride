@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import './Header.css'
+import logo from '../../images/logo.svg'
 
 const Header = () => {
     const destinationId = useParams()
@@ -8,7 +9,7 @@ const Header = () => {
         <div classNameName="headerContainer">
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container-fluid navContainer d-flex pr-5 pl-5">
-                    <Link to='/' className="navbar-brand"><h1 className="logo">Let's Ride</h1></Link>
+                    <Link to='/' className="navbar-brand"><h1 className="logo"><img style={{width:"40px"}} src={logo} alt=""/> Let's Ride</h1></Link>
                     <div className="float-end">
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>

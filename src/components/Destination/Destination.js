@@ -1,6 +1,5 @@
 import React from 'react';
 import './Destination.css'
-import Map from '../../images/Map.png'
 import SelectedDestination from '../SelectedDestination/SelectedDestination';
 import GoogleMap from '../GoogleMap/GoogleMap';
 
