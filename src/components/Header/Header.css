@@ -1,0 +1,13 @@
+.loginBtn{
+    background-color: #211031;
+    padding: 7px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.logo{
+    font-size: 30px;
+    color:  #211031;
+}
